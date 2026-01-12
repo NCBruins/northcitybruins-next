@@ -1,10 +1,8 @@
-// North City Bruins template (GitHub Pages friendly)
-//
-// Customize links & season dates here:
+// North City Bruins — Sleek v2 settings
 const SETTINGS = {
-  registrationUrl: "https://example.com/registration", // <-- replace with your real form link
-  volunteerUrl: "https://example.com/volunteer",       // <-- replace with your real form link
-  earlyBirdDateText: "Feb 15",
+  registrationUrl: "https://example.com/registration", // <-- replace
+  volunteerUrl: "https://example.com/volunteer",       // <-- replace
+  seasonRangeText: "Mar – Jun",
   dates: {
     registration: "Jan 10 – Mar 01",
     evaluations: "Mar 02 – Mar 08",
@@ -17,8 +15,9 @@ function byId(id){ return document.getElementById(id); }
 
 function applySettings(){
   byId("year").textContent = new Date().getFullYear();
+  const season = byId("seasonRange");
+  if(season) season.textContent = SETTINGS.seasonRangeText;
 
-  byId("earlyBirdDate").textContent = SETTINGS.earlyBirdDateText;
   byId("dateRegistration").textContent = SETTINGS.dates.registration;
   byId("dateEvaluations").textContent = SETTINGS.dates.evaluations;
   byId("dateGames").textContent = SETTINGS.dates.games;
@@ -35,7 +34,6 @@ function setupMobileNav(){
     btn.setAttribute("aria-expanded", String(open));
   });
 
-  // close menu on click
   menu.querySelectorAll("a").forEach(a => {
     a.addEventListener("click", () => {
       menu.classList.remove("is-open");
@@ -43,7 +41,6 @@ function setupMobileNav(){
     });
   });
 
-  // close on escape
   document.addEventListener("keydown", (e) => {
     if(e.key === "Escape"){
       menu.classList.remove("is-open");
@@ -59,10 +56,8 @@ function setupContactForm(){
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
-
-    // Demo-only: no backend. Replace with your form provider (Formspree, Netlify Forms, etc.)
     note.style.display = "block";
-    note.textContent = "Thanks! Your message is ready to send — connect a form backend to receive submissions.";
+    note.textContent = "Thanks! Connect a form backend (Formspree/Basin/Getform) to receive submissions.";
     form.reset();
   });
 }
