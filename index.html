@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="North City Bruins Youth Basketball League — learn, compete, and grow. Registration, schedules, and league info." />
+  <title>North City Bruins Youth Basketball League</title>
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top announcement -->
+  <div class="announcement" role="region" aria-label="Announcement">
+    <div class="container announcement__inner">
+      <span class="dot" aria-hidden="true"></span>
+      <p><strong>Spring Season Registration</strong> is open. Early-bird pricing ends <span id="earlyBirdDate">Feb 15</span>.</p>
+      <a class="link" href="#register">Register now</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="North City Bruins home">
+        <img src="assets/logo.png" alt="North City Bruins logo" class="brand__logo" />
+        <div class="brand__text">
+          <div class="brand__name">North City Bruins</div>
+          <div class="brand__tag">Youth Basketball League</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Open menu</span>
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+        <div class="nav__menu" id="navMenu">
+          <a href="#programs">Programs</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#coaches">Coaches</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+          <a class="btn btn--small" href="#register">Register</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="pill">
+            <span class="pill__icon" aria-hidden="true">🏀</span>
+            <span>Skills • Teamwork • Confidence</span>
+          </div>
+          <h1>Youth basketball built to help players grow — on and off the court.</h1>
+          <p>
+            A modern, community-first league focused on fundamentals, fair play, and fun.
+            Programs for beginners through competitive levels.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#register">Register for the season</a>
+            <a class="btn btn--ghost" href="#programs">Explore programs</a>
+          </div>
+
+          <div class="hero__stats" aria-label="League highlights">
+            <div class="stat">
+              <div class="stat__num">6–17</div>
+              <div class="stat__label">Age groups</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">10+</div>
+              <div class="stat__label">Partner gyms</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">1</div>
+              <div class="stat__label">Community</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="card">
+            <div class="card__header">
+              <h2>Season at a glance</h2>
+              <p class="muted">Dates can be updated from <code>script.js</code>.</p>
+            </div>
+            <div class="card__body">
+              <ul class="timeline" id="timeline">
+                <li>
+                  <span class="timeline__dot"></span>
+                  <div>
+                    <div class="timeline__title">Registration</div>
+                    <div class="timeline__meta" id="dateRegistration">Jan 10 – Mar 01</div>
+                  </div>
+                </li>
+                <li>
+                  <span class="timeline__dot"></span>
+                  <div>
+                    <div class="timeline__title">Evaluations</div>
+                    <div class="timeline__meta" id="dateEvaluations">Mar 02 – Mar 08</div>
+                  </div>
+                </li>
+                <li>
+                  <span class="timeline__dot"></span>
+                  <div>
+                    <div class="timeline__title">Season games</div>
+                    <div class="timeline__meta" id="dateGames">Mar 15 – Jun 08</div>
+                  </div>
+                </li>
+                <li>
+                  <span class="timeline__dot"></span>
+                  <div>
+                    <div class="timeline__title">Playoffs</div>
+                    <div class="timeline__meta" id="datePlayoffs">Jun 14 – Jun 22</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="card__footer">
+              <a class="btn btn--small" href="#schedule">View schedules</a>
+              <a class="btn btn--small btn--ghost" href="#faq">What to expect</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__bg" aria-hidden="true"></div>
+    </section>
+
+    <!-- Programs -->
+    <section class="section" id="programs">
+      <div class="container">
+        <div class="section__head">
+          <h2>Programs</h2>
+          <p class="muted">Choose the path that matches your player’s level and goals.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="feature">
+            <div class="feature__icon" aria-hidden="true">🌱</div>
+            <h3>Learn-to-Play</h3>
+            <p>For new hoopers. Fundamentals, coordination, and confidence in a supportive setting.</p>
+            <ul class="check">
+              <li>Ages 6–9</li>
+              <li>1 practice + 1 game / week</li>
+              <li>Small-sided gameplay</li>
+            </ul>
+          </article>
+
+          <article class="feature">
+            <div class="feature__icon" aria-hidden="true">🚀</div>
+            <h3>Recreational League</h3>
+            <p>Balanced teams, skill-building practices, and a positive competitive environment.</p>
+            <ul class="check">
+              <li>Ages 9–14</li>
+              <li>Certified coaches</li>
+              <li>Equal-play philosophy</li>
+            </ul>
+          </article>
+
+          <article class="feature">
+            <div class="feature__icon" aria-hidden="true">🏆</div>
+            <h3>Competitive</h3>
+            <p>Higher intensity training and tournament play for athletes who want more challenge.</p>
+            <ul class="check">
+              <li>Ages 12–17</li>
+              <li>Tryouts/evaluations</li>
+              <li>Advanced skill sessions</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Register -->
+    <section class="section section--alt" id="register">
+      <div class="container">
+        <div class="cta">
+          <div class="cta__content">
+            <h2>Ready to play?</h2>
+            <p class="muted">
+              Register online, choose your division, and we’ll handle the rest.
+              Scholarships and sibling discounts available.
+            </p>
+            <div class="cta__actions">
+              <a class="btn" href="#" onclick="openRegistration(); return false;">Open registration form</a>
+              <a class="btn btn--ghost" href="#contact">Ask a question</a>
+            </div>
+            <p class="tiny muted">Tip: replace the registration link in <code>script.js</code>.</p>
+          </div>
+
+          <div class="cta__panel">
+            <div class="panel">
+              <h3>What’s included</h3>
+              <ul class="check">
+                <li>Jersey + league schedule</li>
+                <li>Certified refs for games</li>
+                <li>Player evaluation & team placement</li>
+                <li>End-of-season celebration</li>
+              </ul>
+              <hr />
+              <div class="row">
+                <div>
+                  <div class="tiny muted">Questions?</div>
+                  <div class="strong">We’re happy to help.</div>
+                </div>
+                <a class="btn btn--small" href="#contact">Contact us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule -->
+    <section class="section" id="schedule">
+      <div class="container">
+        <div class="section__head">
+          <h2>Schedule & locations</h2>
+          <p class="muted">A sample week. Update the table with your real gyms and times.</p>
+        </div>
+
+        <div class="tableWrap" role="region" aria-label="Sample schedule table" tabindex="0">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Division</th>
+                <th>Time</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mon</td>
+                <td>Learn-to-Play</td>
+                <td>5:30–6:30 PM</td>
+                <td>North City Community Centre</td>
+              </tr>
+              <tr>
+                <td>Wed</td>
+                <td>Recreational U12</td>
+                <td>6:00–7:30 PM</td>
+                <td>Riverside Gym</td>
+              </tr>
+              <tr>
+                <td>Thu</td>
+                <td>Recreational U14</td>
+                <td>6:00–7:30 PM</td>
+                <td>Hillcrest School</td>
+              </tr>
+              <tr>
+                <td>Sat</td>
+                <td>League Games</td>
+                <td>9:00 AM–3:00 PM</td>
+                <td>Multiple locations</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="callout">
+          <div class="callout__icon" aria-hidden="true">📍</div>
+          <div>
+            <div class="strong">Need directions?</div>
+            <div class="muted">Add Google Maps links to each gym in the schedule table.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coaches -->
+    <section class="section section--alt" id="coaches">
+      <div class="container">
+        <div class="section__head">
+          <h2>Coaches & culture</h2>
+          <p class="muted">We build athletes through fundamentals, sportsmanship, and accountability.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="card soft">
+            <h3>Coaching standards</h3>
+            <ul class="check">
+              <li>Background-checked volunteers and staff</li>
+              <li>Practice plans and development tracking</li>
+              <li>Positive, player-first environment</li>
+              <li>Clear communication with families</li>
+            </ul>
+          </div>
+
+          <div class="card soft">
+            <h3>Volunteer with us</h3>
+            <p class="muted">
+              Want to coach, manage a team, or help on game days?
+              We’ll train you and match you with a role.
+            </p>
+            <a class="btn btn--small" href="#" onclick="openVolunteer(); return false;">Volunteer interest form</a>
+            <p class="tiny muted">Replace this link in <code>script.js</code>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section__head">
+          <h2>FAQ</h2>
+          <p class="muted">The basics for parents and players.</p>
+        </div>
+
+        <div class="accordion" data-accordion>
+          <details class="accordion__item" open>
+            <summary>How are teams formed?</summary>
+            <div class="accordion__content">
+              Teams are balanced by age group and skill level based on evaluations and prior experience.
+              We prioritize a fun, fair, and developmental environment.
+            </div>
+          </details>
+
+          <details class="accordion__item">
+            <summary>What equipment do players need?</summary>
+            <div class="accordion__content">
+              Indoor shoes, a water bottle, and a ball for practice. Jerseys are provided.
+              Optional: mouthguard and knee pads.
+            </div>
+          </details>
+
+          <details class="accordion__item">
+            <summary>Do you offer financial assistance?</summary>
+            <div class="accordion__content">
+              Yes. Limited scholarships are available. Contact us to request a confidential application.
+            </div>
+          </details>
+
+          <details class="accordion__item">
+            <summary>What’s your refund policy?</summary>
+            <div class="accordion__content">
+              Full refunds are available before evaluations begin. Partial refunds may apply afterward based on
+              uniform and facility costs. Customize this section to match your policy.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contact</h2>
+          <p class="muted">Send a message and we’ll get back to you.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <form class="form card" id="contactForm">
+            <div class="form__row">
+              <label>
+                <span>Name</span>
+                <input name="name" type="text" autocomplete="name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input name="email" type="email" autocomplete="email" required />
+              </label>
+            </div>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" required placeholder="How can we help?"></textarea>
+            </label>
+            <div class="form__actions">
+              <button class="btn" type="submit">Send message</button>
+              <p class="tiny muted">This demo form shows a confirmation message (no backend).</p>
+            </div>
+            <div class="form__note" id="formNote" aria-live="polite"></div>
+          </form>
+
+          <div class="card soft">
+            <h3>League office</h3>
+            <p class="muted">
+              Update these details to match your organization.
+            </p>
+            <div class="info">
+              <div class="info__item">
+                <div class="tiny muted">Email</div>
+                <div><a class="link" href="mailto:info@northcitybruins.ca">info@northcitybruins.ca</a></div>
+              </div>
+              <div class="info__item">
+                <div class="tiny muted">Phone</div>
+                <div><a class="link" href="tel:+14165551234">(416) 555-1234</a></div>
+              </div>
+              <div class="info__item">
+                <div class="tiny muted">Location</div>
+                <div>North City, Ontario</div>
+              </div>
+            </div>
+
+            <div class="social">
+              <a class="chip" href="#" aria-label="Instagram">Instagram</a>
+              <a class="chip" href="#" aria-label="X / Twitter">X</a>
+              <a class="chip" href="#" aria-label="YouTube">YouTube</a>
+            </div>
+
+            <div class="callout subtle">
+              <div class="callout__icon" aria-hidden="true">🤝</div>
+              <div>
+                <div class="strong">Sponsors welcome</div>
+                <div class="muted">Support youth sports and reach local families.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <img src="assets/logo.png" alt="" class="footer__logo" />
+        <div>
+          <div class="strong">North City Bruins</div>
+          <div class="tiny muted">Youth Basketball League</div>
+        </div>
+      </div>
+
+      <div class="footer__links">
+        <a href="#programs">Programs</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer__right tiny muted">
+        <span>© <span id="year"></span> North City Bruins. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
