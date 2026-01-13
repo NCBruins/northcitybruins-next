@@ -47,33 +47,33 @@ div#header div ul.navigation li a{
 	display: block;
 	font-family: Arial;
 	font-size:14px;
-	color:#bababa;
+	color:#FFD026;
 	text-transform: uppercase;
 	line-height: 90px;
 	padding:0 25px;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #151e24;
+	border-color: #003366;
 	border-top:none;
 }
 div#header div ul.navigation li a:hover{
-	background-color: #000000;
+	background-color: #003366;
 	color: #ffffff;
 	font-size:14px;
 	font-family: Arial;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #232e32;
+	border-color: #FFD026;
 	border-top:none;
 	}
 div#header div ul.navigation li a.active{
-	background-color: #000000;
+	background-color: #003366;
 	color: #ffffff;
 	font-size:14px;
 	font-family: Arial;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #232e32;
+	border-color: #FFD026;
 	border-top:none;
 }
 /*************End OF Header ****************/
@@ -120,7 +120,7 @@ div#body  div#featured ul li a img{
 div#body  div#featured ul li h1{
 	font-family: Arial;
 	font-size: 23px;
-	color: #dec0c1;
+	color: #FFD026;
 	font-weight: normal;
 	text-transform: uppercase;
 	margin-top: 40px;
@@ -133,7 +133,7 @@ div#body  div#featured ul li.first{
 div#body  div#featured ul li.first h2{
 	font-family: Arial;
 	font-size: 26px;
-	color: #dec0c1;
+	color: #FFD026;
 	line-height: 30px;
 	margin:10px 0 0 0;
 	padding:0;
@@ -149,7 +149,7 @@ div#body  div#featured ul li.first a.button{
 	display: inline-block;
 	font-family: Arial;
 	font-size: 14px;
-	color: #dec0c1;
+	color: #FFD026;
 	line-height: 30px;
 	text-align: center;
 	text-decoration: none;
@@ -162,7 +162,7 @@ div#body  div#featured ul li.last{
 div#body  div#featured ul li.last h3{
 	font-family: Arial;
 	font-size: 73px;
-	color: #dec0c1;
+	color: #FFD026;
 	line-height: 30px;
 	margin:45px 0 0 0;
 	padding:0;
@@ -172,7 +172,7 @@ div#body  div#featured ul li.last h3{
 div#body  div#featured ul li.last p{
 	font-family: Arial;
 	font-size: 15px;
-	color: #dec0c1;
+	color: #FFD026;
 	font-weight: bold;
 }
 div#body  div#featured ul li.last p span{
@@ -288,7 +288,7 @@ div#body div div#content ul li p a{
 div#body div div#content ul li p a:hover{
 	font-family: Arial;
 	font-size: 16px;
-	color:#92b6ce;
+	color:#FFD026;
 }
 /*********End OF About Style**********/
 /*********Start OF Blog Style**********/
@@ -338,7 +338,7 @@ div#body div div#content div.content ul li p a{
 div#body div div#content div.content ul li p a:hover{
 	font-family: Arial;
 	font-size: 16px;
-	color:#92b6ce;
+	color:#FFD026;
 }
 div#body div div#content div.content ul li h2 a:hover{
 	font-family: Arial;
@@ -381,7 +381,7 @@ div#body div div#content div.aside ul li a{
 }
 div#body div div#content div.aside ul li a:hover{
 	font-size: 16px;
-	color:#92b6ce;
+	color:#FFD026;
 }
 /*********End OF Blog Style**********/
 /*********Start OF Footer Style**********/
@@ -441,7 +441,7 @@ div#footer div div.section div div ul li{
 div#footer div div.section div div ul li.first h2{
 	font-family: Arial;
 	font-size: 14px;
-	color: #e5a704;
+	color: #FFD026;
 	text-transform: uppercase;
 	font-weight: normal;
 	text-align: left;
@@ -461,7 +461,7 @@ div#footer div div.section div div ul li.first p a{
 div#footer div div.section div div ul li.first p a:hover{
 	font-family: Arial;
 	font-size: 14px;
-	color: #92b6ce;
+	color: #FFD026;
 	text-align: left;
 }
 div#footer div div.section div div ul li.first p a.readmore{
@@ -474,13 +474,13 @@ div#footer div div.section div div ul li.first p a.readmore{
 div#footer div div.section div div ul li.first p a.readmore:hover{
 	font-family: Arial;
 	font-size: 14px;
-	color: #92b6ce;
+	color: #FFD026;
 	text-align: left;
 }
 div#footer div div.section div div ul li h2{
 	font-family: Arial;
 	font-size: 14px;
-	color: #e5a704;
+	color: #FFD026;
 	text-transform: uppercase;
 	font-weight: normal;
 }
