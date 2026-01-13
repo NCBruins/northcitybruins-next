@@ -353,6 +353,34 @@ a {
     }
 }
 
-html, body {
-  cursor: url('images/basketball-cursor.png') 16 16, auto;
+/* Larger navigation logo */
+.navbar-brand img {
+    height: 72px;
+    width: auto;
 }
+
+/* Make hero logo more prominent */
+.hero-logo {
+    width: 50%;
+    max-width: 450px;
+    height: auto;
+    margin-bottom: 2rem;
+    filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.2));
+}
+
+/* Modern card and section shadows */
+.card {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+.section {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 3rem;
+}
+
+/* Nav bar drop shadow */
+.navbar {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
