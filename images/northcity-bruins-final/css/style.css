@@ -1,0 +1,542 @@
+/** Website template by freewebsitetemplates.com **/
+body{
+	margin:0;
+	padding:0;
+	background: url("../images/bg-pattern.png");
+	line-height:25px;
+}
+a{
+	outline:0;
+}
+img{
+	border:0;
+}
+div#header{
+	background: transparent url("../images/bg-header.png");
+	background-position:top;
+	background-repeat: repeat-x;
+	height: 147px;
+}
+div#header div{
+	width: 960px;
+	height: 147px;
+	margin:0 auto;
+	position: relative;
+}
+div#header div img.logo{
+	float: left;
+	position: absolute;
+	z-index: 100;
+	left: -50px;
+}
+div#header div ul.navigation{
+	margin: 0 20px 0 0;
+	padding:0;
+	list-style-type: none;
+	position: relative;
+	top:20px;
+	float: right;
+}
+div#header div ul.navigation li{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+}
+div#header div ul.navigation li a{
+	text-decoration: none;
+	display: block;
+	font-family: Arial;
+	font-size:14px;
+	color:#FFD026;
+	text-transform: uppercase;
+	line-height: 90px;
+	padding:0 25px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #003366;
+	border-top:none;
+}
+div#header div ul.navigation li a:hover{
+	background-color: #003366;
+	color: #ffffff;
+	font-size:14px;
+	font-family: Arial;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFD026;
+	border-top:none;
+	}
+div#header div ul.navigation li a.active{
+	background-color: #003366;
+	color: #ffffff;
+	font-size:14px;
+	font-family: Arial;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFD026;
+	border-top:none;
+}
+/*************End OF Header ****************/
+div#body{
+	background: transparent url("../images/bg-body.png");
+	background-position: top;
+	background-repeat: repeat-x;
+	margin:0;
+	padding:0;
+}
+div#body div{
+	width: 960px;
+	margin:0 auto;
+}	
+/**Start of Featured**/
+div#body  div#featured{
+	width: 960px;
+	position: relative;
+	top:-50px;
+	margin-bottom: 200px;
+}	
+div#body  div#featured ul{
+	list-style-type: none;
+	margin:0 0 0 15px;
+	padding: 0;
+	position: relative;
+	top:-70px;
+	z-index:101;
+}
+div#body  div#featured ul li{
+	float: left;
+	margin:0 10px;
+	background: transparent url("../images/bg-frame.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 144px;
+	width: 254px;
+	padding:10px 20px;
+}
+div#body  div#featured ul li a img{
+	float: left;
+	margin: 35px 20px 20px 0;
+}
+div#body  div#featured ul li h1{
+	font-family: Arial;
+	font-size: 23px;
+	color: #FFD026;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+div#body  div#featured ul li.first{
+	text-align: center;
+	padding:20px;
+	height: 124px;
+}
+div#body  div#featured ul li.first h2{
+	font-family: Arial;
+	font-size: 26px;
+	color: #FFD026;
+	line-height: 30px;
+	margin:10px 0 0 0;
+	padding:0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+div#body  div#featured ul li.first a.button{
+	background: transparent url("../images/button-1.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 30px;
+	width: 129px;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 14px;
+	color: #FFD026;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+div#body  div#featured ul li.last{
+	text-align: center;
+}
+div#body  div#featured ul li.last h3{
+	font-family: Arial;
+	font-size: 73px;
+	color: #FFD026;
+	line-height: 30px;
+	margin:45px 0 0 0;
+	padding:0;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+div#body  div#featured ul li.last p{
+	font-family: Arial;
+	font-size: 15px;
+	color: #FFD026;
+	font-weight: bold;
+}
+div#body  div#featured ul li.last p span{
+	text-transform: uppercase;
+}
+/*********End OF Featured Style**********/
+/*********Start OF Content ID Style**********/
+div#body div div#content{
+	width: 960px;
+	overflow:hidden;
+	padding-top:90px;
+}
+div#body div div#content ul.products{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+div#body div div#content ul.products li{
+	margin:0 10px 70px 10px;
+	float: left;
+	width: 300px;
+	padding:0px;
+	text-align: center;
+}
+div#body div div#content ul.products li p{
+	font-family: Arial;
+	color: #bababa;
+	font-size: 16px;
+	margin:0;
+	padding:0;
+}
+div#body div div#content ul.products li p a{
+	font-family: Arial;
+	color: #bababa;
+	font-size: 16px;
+}
+div#body div div#content ul.products li p a:hover{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 16px;
+}
+div#body div div#content ul.products li span{
+	font-family: Arial;
+	color: #bababa;
+	font-size: 16px;
+	margin:0 30px 0 0;
+	padding:0;
+}
+div#body div div#content ul.products li a{
+	text-decoration: none;
+}
+div#body div div#content ul.products li a span{
+	font-family: Arial;
+	color: #bababa;
+	font-size: 16px;
+	margin:0;
+	padding:0;
+}
+div#body div div#content ul.products li a:hover span{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 16px;
+	margin:0;
+	padding:0;
+}
+/*********Start OF Content ID Style**********/
+/*********Start OF About ID Style**********/
+div#body div div#content ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+div#body div div#content ul li {
+	margin-bottom:50px;
+	padding: 0 20px;
+}
+div#body div div#content ul li h2{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color:#bababa;
+}
+div#body div div#content ul li h2 a:hover{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color:#ffffff;
+}
+div#body div div#content ul li h4{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	color:#bababa;
+}
+div#body div div#content ul li h2 a{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color:#bababa;
+	text-decoration: none;
+}
+div#body div div#content ul li p{
+	font-family: Arial;
+	font-size: 16px;
+	color:#bababa;
+	line-height:30px;
+}
+div#body div div#content ul li p a{
+	font-family: Arial;
+	font-size: 16px;
+	color:#bababa;
+}
+div#body div div#content ul li p a:hover{
+	font-family: Arial;
+	font-size: 16px;
+	color:#FFD026;
+}
+/*********End OF About Style**********/
+/*********Start OF Blog Style**********/
+div#body div div#content div.content{
+	width: 620px;
+	float: left;
+	margin-right: 20px;
+	padding-right: 10px;
+}
+div#body div div#content div.content ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+div#body div div#content div.content ul li{
+	list-style-type: none;
+	margin:0 0 10px 0;
+	padding:0 0 0 20px;
+}
+div#body div div#content div.content ul li h2{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color:#bababa;
+	margin:10px 0 0 0;
+}
+div#body div div#content div.content ul li h2 a{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color:#bababa;
+	text-decoration: none;
+}
+div#body div div#content div.content ul li p{
+	font-family: Arial;
+	font-size: 16px;
+	color:#bababa;
+	margin-bottom: 40px;
+	text-align: justify;
+	line-height:30px;
+}
+div#body div div#content div.content ul li p a{
+	font-family: Arial;
+	font-size: 16px;
+	color:#bababa;
+}
+div#body div div#content div.content ul li p a:hover{
+	font-family: Arial;
+	font-size: 16px;
+	color:#FFD026;
+}
+div#body div div#content div.content ul li h2 a:hover{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color:#ffffff;
+	text-decoration: none;
+}
+div#body div div#content div.aside{
+	width: 310px;
+	float: left;
+}
+div#body div div#content div.aside ul{
+	margin: 0 0 50px 10px;
+	padding:0;
+	list-style-type:disc;
+	color: #bababa;
+}
+div#body div div#content div.aside ul li{
+	margin: 0;
+	padding:0;
+	list-style-type:disc;
+}
+div#body div div#content div.aside ul li p{
+	margin: 0;
+	padding:0;
+	font-family: Arial;
+}
+div#body div div#content div.aside  h2{
+	font-size: 16px;
+	color:#bababa;
+	font-family: Arial;
+	font-weight: normal;
+	margin-top:10px;
+}
+div#body div div#content div.aside ul li a{
+	font-size: 16px;
+	color:#bababa;
+	font-family: Arial;
+}
+div#body div div#content div.aside ul li a:hover{
+	font-size: 16px;
+	color:#FFD026;
+}
+/*********End OF Blog Style**********/
+/*********Start OF Footer Style**********/
+div#footer{
+	width: 100%;
+	margin-top: 100px;
+}
+div#footer div{
+	width: 960px;
+	margin:0 auto;
+}
+div#footer div div.section{
+	background: transparent url("../images/bg-footer-top.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 940px;
+	padding-top: 11px;
+	overflow: hidden;
+}
+div#footer div div.section div{
+	background: transparent url("../images/bg-footer-bottom.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	width: 940px;
+	padding-bottom: 12px;
+}
+div#footer div div.section div div{
+	background: transparent url("../images/bg-footer-center.png");
+	background-repeat: repeat-y;
+	background-position: center center;
+	width: 940px;
+	height: 80px;
+}
+div#footer div div.section div div ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+div#footer div div.section div div ul li.first{
+	width: 705px;
+	height: 80px;
+	padding:0 20px;
+	float: left;
+	text-align: center;
+}
+div#footer div div.section div div ul li{
+	width: 195px;
+	height: 80px;
+	float: left;
+}
+div#footer div div.section div div ul li{
+	width: 195px;
+	height: 80px;
+	float: left;
+	text-align: center;
+}
+div#footer div div.section div div ul li.first h2{
+	font-family: Arial;
+	font-size: 14px;
+	color: #FFD026;
+	text-transform: uppercase;
+	font-weight: normal;
+	text-align: left;
+}
+div#footer div div.section div div ul li.first p{
+	font-family: Arial;
+	font-size: 14px;
+	color: #6d6d6d;
+	text-align: left;
+}
+div#footer div div.section div div ul li.first p a{
+	font-family: Arial;
+	font-size: 14px;
+	color: #6d6d6d;
+	text-align: left;
+}
+div#footer div div.section div div ul li.first p a:hover{
+	font-family: Arial;
+	font-size: 14px;
+	color: #FFD026;
+	text-align: left;
+}
+div#footer div div.section div div ul li.first p a.readmore{
+	font-family: Arial;
+	font-size: 14px;
+	color: #6d6d6d;
+	text-align: left;
+	text-decoration:none;
+}
+div#footer div div.section div div ul li.first p a.readmore:hover{
+	font-family: Arial;
+	font-size: 14px;
+	color: #FFD026;
+	text-align: left;
+}
+div#footer div div.section div div ul li h2{
+	font-family: Arial;
+	font-size: 14px;
+	color: #FFD026;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+div#footer div div.section div div ul li ul.connect{
+	margin: 0 0 0 15px;
+	padding: 0;
+	list-style-type: none;
+}
+div#footer div div.section div div ul li ul.connect li{
+	float: left;
+	width: auto;
+	margin: 0 10px;
+}
+div#footer div div.section div div ul li ul.connect li a.facebook{
+	text-decoration: none;
+	background: url("../images/icon.png") no-repeat scroll 0 -75px transparent;
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+}
+div#footer div div.section div div ul li ul.connect li a.facebook:hover{
+	background: url("../images/icon.png") no-repeat scroll 0 0 transparent;
+}
+div#footer div div.section div div ul li ul.connect li a.twitter{
+	background: url("../images/icon.png") no-repeat scroll 0 -378px transparent;
+	text-decoration: none;
+	display: inline-block;
+	height: 26px;
+	width: 38px;
+}
+div#footer div div.section div div ul li ul.connect li a.twitter:hover{
+	background: url("../images/icon.png") no-repeat scroll 0 -302px transparent;
+}
+div#footer div div.section div div ul li ul.connect li a.googleplus{
+	background: url("../images/icon.png") no-repeat scroll 0 -226px transparent;
+	text-decoration: none;
+	display: inline-block;
+	height: 25px;
+	width: 37px;
+}
+div#footer div div.section div div ul li ul.connect li a.googleplus:hover{
+	background: url("../images/icon.png") no-repeat scroll 0 -150px transparent;
+}
+div#footer div div.footnote{
+	width: 960px;
+	text-align: center;
+	margin-top: 50px;
+}
+div#footer div div.footnote p{
+	color: #535353;
+	font-family: Arial;
+	font-size: 12px;
+}
+div#footer div div.footnote p a{
+	text-decoration: none;
+}
+div#footer div div.footnote p a:hover{
+	color: #ffffff;
+}
