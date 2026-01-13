@@ -1,65 +1,88 @@
 <!DOCTYPE html>
-<!-- Website template by freewebsitetemplates.com -->
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Contact - Eco Living Website Template</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – North City Bruins</title>
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNBGBEMNKP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-CNBGBEMNKP');
+  </script>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-	<div id="header">
-		<div>
-			<a href="index.html" id="logo"><img src="images/logo.png" alt="logo"></a>
-			<ul>
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="subdivisions.html">Subdivisions</a>
-				</li>
-				<li>
-					<a href="blog.html">Blog</a>
-				</li>
-				<li>
-					<a href="about.html">About</a>
-				</li>
-				<li class="selected">
-					<a href="contact.html">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div id="body" class="contact">
-		<h3>This is just a place holder</h3>
-		<p>
-			This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text.
-		</p>
-		<br>
-		<p>
-			You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
-		</p>
-		<div>
-			<div>
-				<span>E-mail: <a href="freewebsitetemplates.com/forum">forum</a></span>
-				<p>
-					Call or e-mail us for help with any aspect of your purchase, online or offline.
-				</p>
-				<span>Call toll-free: 877 000 0000</span> <span>Call toll-free: 866 000 0000</span> <span>Toll-free fax: 877 000 0000</span>
-			</div>
-			<div>
-				<span>Mailing Address</span> <span>Tree Valley</span> <span>250 Lorem Ipsum Street</span> <span>Jaofanr, Caknan 109935</span> <span>Kiangab</span>
-			</div>
-		</div>
-	</div>
-	<div id="footer">
-		<div>
-			<p>
-				&#169; 2023 Tree Valley. All Rights Reserved.
-			</p>
-			<div class="connect">
-				<a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">google+</a> <a href="http://www.freewebsitetemplates.com/misc/contact" id="contact">contact</a> <a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a> <a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
-			</div>
-		</div>
-	</div>
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.png" alt="North City Bruins logo" class="brand-logo" />
+        <span>North City Bruins</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Contact Us</h1>
+      </div>
+    </section>
+    <section class="content">
+      <div class="container">
+        <p>
+          We’d love to hear from you! Whether you have questions about our
+          programs, registration, sponsorship opportunities or anything
+          else, feel free to get in touch using the details below.
+        </p>
+        <h2>Contact Details</h2>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:info@northcitybruins.ca">info@northcitybruins.ca</a></li>
+          <li><strong>Phone:</strong> (555) 123‑4567</li>
+          <li><strong>Location:</strong> North City Community Centre, Toronto, ON</li>
+        </ul>
+        <h2>Send Us a Message</h2>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <p>© 2026 North City Bruins. All rights reserved.</p>
+      </div>
+      <div class="social">
+        <a href="#" aria-label="Instagram" class="social-icon">
+          <img src="assets/instagram.svg" alt="Instagram" />
+        </a>
+        <a href="#" aria-label="TikTok" class="social-icon">
+          <img src="assets/tiktok.svg" alt="TikTok" />
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
