@@ -49,7 +49,7 @@ img {
 }
 /*----------------------------------------header-styles---------------------------------------*/
 #header {
-	background-color: #003366;
+	background-color: #f6f7fa;
 	margin: 0;
 	padding: 0;
 	position: relative;
@@ -91,7 +91,7 @@ img {
 	width: auto;
 }
 #header div ul li a {
-	color: #FFD026;
+	color: #0b1220;
 	font-family: lato-regular-webfont;
 	font-size: 15px;
 	font-weight: normal;
@@ -102,13 +102,13 @@ img {
 	text-transform: uppercase;
 }
 #header div ul li.selected a, #header div ul li.selected a:hover {
-	color: #FFFFFF;
+	color: #0B2A55;
 }
 #header div ul li a:hover, #header div ul li.menu:hover ul li a {
-	color: #FFFFFF;
+	color: #F4C300;
 }
 #header div ul li ul li a {
-	color: #FFD026;
+	color: #0B2A55;
 	font-family: lato-regular-webfont;
 	font-size: 15px;
 	font-weight: normal;
@@ -195,7 +195,7 @@ img {
 	z-index: 90;
 }
 #body.home div.body {
-	background-color: #eae7e8;
+	background-color: #f6f7fa;
 	margin: 0;
 	max-width: none;
 	padding: 0;
@@ -223,7 +223,7 @@ img {
 	width: auto;
 }
 #body.home div.body div div h1 {
-	color: #7A6666;
+	color: #0b1220;
 	display: block;
 	font-family: lato-bold-webfont;
 	font-size: 18px;
@@ -236,7 +236,7 @@ img {
 	width: 560px;
 }
 #body.home div.body div div h2 {
-	color: #003366;
+	color: #0B2A55;
 	display: block;
 	font-family: magra-bold-webfont;
 	font-size: 30px;
@@ -249,7 +249,7 @@ img {
 	width: 560px;
 }
 #body.home div.body div div p {
-	color: #7a6666;
+	color: #0b1220;
 	display: block;
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
@@ -261,7 +261,7 @@ img {
 	width: 560px;
 }
 #body.home div.body div div p a {
-	color: #7a6666;
+	color: #0b1220;
 	display: block;
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
@@ -272,10 +272,10 @@ img {
 	text-decoration: underline;
 }
 #body.home div.body div div p a:hover {
-	color: #FFD026;
+	color: #F4C300;
 }
 #body.home div.footer {
-	background-color: #FFD026;
+	background-color: #F4C300;
 	margin: 0;
 	max-width: none;
 	padding: 0;
@@ -340,7 +340,7 @@ img {
 	width: 100%;
 }
 #body div.header {
-	background-color: #FFD026;
+	background-color: #F4C300;
 	margin: 0 auto;
 	max-width: none;
 	overflow: hidden;
@@ -363,7 +363,7 @@ img {
 	text-transform: uppercase;
 }
 #body div.body {
-	background-color: #ebebed;
+	background-color: #f6f7fa;
 	margin: 0;
 	max-width: none;
 	min-height: 249px;
@@ -386,7 +386,7 @@ img {
 	padding: 40px 0 110px;
 }
 #body div.footer div.sidebar {
-	background-color: #EFEDEE;
+	background-color: #f6f7fa;
 	float: left;
 	margin: 0 10px 0 40px;
 	padding: 36px 0 34px;
@@ -414,7 +414,7 @@ img {
 	width: 169px;
 }
 #body div.footer div h1 {
-	color: #CB3362;
+	color: #0B2A55;
 	font-family: lato-regular-webfont;
 	font-size: 24px;
 	font-weight: normal;
@@ -425,7 +425,7 @@ img {
 	text-transform: uppercase;
 }
 #body div.footer div p, #body div.footer div span {
-	color: #7A6666;
+	color: #0b1220;
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
 	font-weight: normal;
@@ -440,7 +440,7 @@ img {
 	padding: 0;
 }
 #body div.footer div p a {
-	color: #7a6666;
+	color: #0b1220;
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
 	font-weight: normal;
@@ -450,7 +450,7 @@ img {
 	text-decoration: underline;
 }
 #body div.footer div p a:hover, #body div ul li p a:hover, #body div.blog .featured ul li div p a:hover, #body div.blog .sidebar p a:hover, #body div.blog .featured p a:hover, #body.contact div.body div div p a:hover {
-	color: #FFD026;
+	color: #F4C300;
 }
 #body div {
 	margin: 0 auto;
@@ -472,7 +472,7 @@ img {
 	width: 220px;
 }
 #body div ul li h1 {
-	color: #003366;
+	color: #0B2A55;
 	font-family: magra-bold-webfont;
 	font-size: 28px;
 	font-weight: normal;
@@ -483,7 +483,7 @@ img {
 	text-transform: capitalize;
 }
 #body div ul li p {
-	color: #7A6666;
+	color: #0b1220;
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
 	font-weight: normal;
@@ -494,7 +494,7 @@ img {
 	width: 190px;
 }
 #body div ul li p a {
-	color: #7a6666;
+	color: #0b1220;
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
 	font-weight: normal;
@@ -510,7 +510,7 @@ img {
 	width: auto;
 }
 #body div ul li h2 {
-	color: #e32a62;
+	color: #0B2A55;
 	font-family: lato-regular-webfont;
 	font-size: 20px;
 	font-weight: normal;
@@ -576,7 +576,7 @@ img {
 	width: 370px;
 }
 #body div.blog .featured ul li div h1 {
-	color: #CB3362;
+	color: #0B2A55;
 	font-family: lato-regular-webfont;
 	font-size: 24px;
 	font-weight: normal;
@@ -587,7 +587,7 @@ img {
 	text-transform: uppercase;
 }
 #body div.blog .featured ul li div span {
-	color: #7A6666;
+	color: #0b1220;
 	display: block;
 	font-family: roboto-regular-webfont;
 	font-size: 12px;
@@ -599,7 +599,7 @@ img {
 	text-transform: none;
 }
 #body div.blog .featured ul li div p {
-	color: #7a6666;
+	color: #0b1220;
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
 	font-weight: normal;
@@ -610,7 +610,7 @@ img {
 	width: 100%;
 }
 #body div.blog .featured ul li div p a {
-	color: #7a6666;
+	color: #0b1220;
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
 	font-weight: normal;
@@ -620,8 +620,8 @@ img {
 	text-decoration: underline;
 }
 #body div.blog .featured ul li div a.more {
-	border: 2px solid #cbb5bc;
-	color: #a5838e;
+	border: 2px solid #e6e8ee;
+	color: #5b6474;
 	display: block;
 	font-family: lato-bold-webfont;
 	font-size: 16px;
@@ -635,7 +635,7 @@ img {
 	width: 156px;
 }
 #body div.blog .featured ul li div a.more:hover {
-	background-color: #FFD026;
+	background-color: #F4C300;
 	border: none;
 	color: #ffffff;
 	height: 40px;
@@ -643,8 +643,8 @@ img {
 	width: 160px;
 }
 #body div.blog .featured a.load {
-	border: 2px solid #cbb5bc;
-	color: #a5838e;
+	border: 2px solid #e6e8ee;
+	color: #5b6474;
 	display: block;
 	font-family: lato-bold-webfont;
 	font-size: 16px;
@@ -658,7 +658,7 @@ img {
 	width: 156px;
 }
 #body div.blog .featured a.load:hover {
-	background-color: #003366;
+	background-color: #0B2A55;
 	border: none;
 	color: #ffffff;
 	height: 40px;
@@ -666,21 +666,21 @@ img {
 	width: 160px;
 }
 #body div.blog .sidebar {
-	background-color: #EFEDEE;
+	background-color: #f6f7fa;
 	float: left;
 	margin: 0;
 	padding: 0 0 71px;
 	width: 280px;
 }
 #body div.singlepost .sidebar {
-	background-color: #EFEDEE;
+	background-color: #f6f7fa;
 	float: left;
 	margin: 0;
 	padding: 0 0 71px;
 	width: 280px;
 }
 #body div.blog .sidebar h1, #body div.singlepost .sidebar h1 {
-	color: #CB3362;
+	color: #0B2A55;
 	font-family: magra-bold-webfont;
 	font-size: 30px;
 	font-weight: normal;
@@ -697,7 +697,7 @@ img {
 	width: auto;
 }
 #body div.blog .sidebar h2, #body div.singlepost .sidebar h2 {
-	color: #CB3362;
+	color: #0B2A55;
 	font-family: lato-regular-webfont;
 	font-size: 24px;
 	font-weight: normal;
@@ -708,7 +708,7 @@ img {
 	text-transform: uppercase;
 }
 #body div.blog .sidebar span, #body div.singlepost .sidebar span {
-	color: #7A6666;
+	color: #0b1220;
 	display: block;
 	font-family: roboto-regular-webfont;
 	font-size: 12px;
@@ -720,7 +720,7 @@ img {
 	text-transform: none;
 }
 #body div.blog .sidebar p, #body div.singlepost .sidebar p {
-	color: #7A6666;
+	color: #0b1220;
 	display: block;
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
@@ -733,7 +733,7 @@ img {
 	width: 200px;
 }
 #body div.blog .sidebar p a, #body div.singlepost .sidebar p a {
-	color: #7a6666;
+	color: #0b1220;
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
 	font-weight: normal;
@@ -744,7 +744,7 @@ img {
 }
 #body div.blog .sidebar a.more, #body div.singlepost .sidebar a.more {
 	border: 2px solid #d3c2c7;
-	color: #a5838e;
+	color: #5b6474;
 	display: block;
 	font-family: lato-bold-webfont;
 	font-size: 16px;
@@ -758,7 +758,7 @@ img {
 	width: 156px;
 }
 #body div.blog .sidebar a.more:hover, #body div.singlepost .sidebar a.more:hover {
-	background-color: #FFD026;
+	background-color: #F4C300;
 	border: none;
 	color: #ffffff;
 	height: 40px;
@@ -772,7 +772,7 @@ img {
 	width: auto;
 }
 #body div.singlepost .featured h1 {
-	color: #CB3362;
+	color: #0B2A55;
 	font-family: lato-regular-webfont;
 	font-size: 24px;
 	font-weight: normal;
@@ -783,7 +783,7 @@ img {
 	text-transform: uppercase;
 }
 #body div.singlepost .featured span {
-	color: #7A6666;
+	color: #0b1220;
 	display: block;
 	font-family: Arial;
 	font-size: 12px;
@@ -795,7 +795,7 @@ img {
 	text-transform: none;
 }
 #body div.singlepost .featured p {
-	color: #7A6666;
+	color: #0b1220;
 	font-family: Arial;
 	font-size: 14px;
 	font-weight: normal;
@@ -805,7 +805,7 @@ img {
 	text-align: left;
 }
 #body div.singlepost .featured p a {
-	color: #7a6666;
+	color: #0b1220;
 	font-family: Arial;
 	font-size: 14px;
 	font-weight: normal;
@@ -815,8 +815,8 @@ img {
 	text-decoration: underline;
 }
 #body div.singlepost .featured a.load {
-	border: 2px solid #CBB5BC;
-	color: #A5838E;
+	border: 2px solid #e6e8ee;
+	color: #5b6474;
 	display: block;
 	font-family: lato-bold-webfont;
 	font-size: 16px;
@@ -830,7 +830,7 @@ img {
 	width: 156px;
 }
 #body div.singlepost .featured a.load:hover {
-	background-color: #FFD026;
+	background-color: #F4C300;
 	border: none;
 	color: #ffffff;
 	height: 40px;
@@ -866,7 +866,7 @@ img {
 	width: auto;
 }
 #body.contact div.body div div h1 {
-	color: #CB3362;
+	color: #0B2A55;
 	float: left;
 	font-family: lato-regular-webfont;
 	font-size: 24px;
@@ -879,7 +879,7 @@ img {
 	width: 510px;
 }
 #body.contact div.body div div p {
-	color: #7a6666;
+	color: #0b1220;
 	float: left;
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
@@ -891,7 +891,7 @@ img {
 	width: 510px;
 }
 #body.contact div.body div div p a {
-	color: #7a6666;
+	color: #0b1220;
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
 	font-weight: normal;
@@ -908,7 +908,7 @@ img {
 	width: 590px;
 }
 #body div.footer .contact h1 {
-	color: #CB3362;
+	color: #0B2A55;
 	float: none;
 	font-family: lato-regular-webfont;
 	font-size: 24px;
@@ -929,7 +929,7 @@ img {
 #body div.footer .contact form input {
 	background: none;
 	border: 1px solid #B6ADB0;
-	color: #7A6666;
+	color: #0b1220;
 	display: block;
 	font-family: lato-regular-webfont;
 	font-size: 14px;
@@ -944,7 +944,7 @@ img {
 #body div.footer .contact form textarea {
 	background: none;
 	border: 1px solid #B6ADB0;
-	color: #7A6666;
+	color: #0b1220;
 	display: block;
 	font-family: lato-regular-webfont;
 	font-size: 14px;
@@ -961,7 +961,7 @@ img {
 #body div.footer .contact form input#submit {
 	background: none;
 	border: 2px solid #c5abb4;
-	color: #a5838e;
+	color: #5b6474;
 	cursor: pointer;
 	display: block;
 	font-family: lato-bold-webfont;
@@ -976,13 +976,13 @@ img {
 	width: 141px;
 }
 #body div.footer .contact form input#submit:hover {
-	background-color: #FFD026;
+	background-color: #F4C300;
 	border: none;
 	height: 40px;
 	width: 141px;
 }
 #body div.footer .section {
-	background-color: #EFEDEE;
+	background-color: #f6f7fa;
 	float: left;
 	margin: 0;
 	max-width: none;
@@ -990,7 +990,7 @@ img {
 	width: 280px;
 }
 #body div.footer .section h1 {
-	color: #CB3362;
+	color: #0B2A55;
 	display: block;
 	font-family: lato-regular-webfont;
 	font-size: 24px;
@@ -1003,7 +1003,7 @@ img {
 	width: 202px;
 }
 #body div.footer .section p {
-	color: #7A6666;
+	color: #0b1220;
 	display: block;
 	font-family: roboto-regular-webfont;
 	font-size: 14px;
@@ -1020,7 +1020,7 @@ img {
 }
 /*----------------------------------------footer-styles---------------------------------------*/
 #footer {
-	background-color: #003366;
+	background-color: #0B2A55;
 	margin: 0;
 	padding: 0;
 	width: 100%;

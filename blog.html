@@ -1,12 +1,22 @@
 <!doctype html>
+<!-- Website template by freewebsitetemplates.com -->
 <html>
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>News - North City Bruins</title>
+	<title>News | North City Bruins</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 	<script src="js/mobile.js" type="text/javascript"></script>
+<!-- Google Analytics 4 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-CNBGBEMNKP"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-CNBGBEMNKP');
+	</script>
+
 </head>
 <body>
 	<div id="page">
@@ -17,21 +27,14 @@
 					<li>
 						<a href="index.html">Home</a>
 					</li>
-					<li class="menu">
-						<a href="about.html">About Us</a>
-						<ul class="primary">
-							<li>
-								<a href="product.html">Programs</a>
-							</li>
-						</ul>
+					<li>
+						<a href="product.html">Programs</a>
 					</li>
-					<li class="menu selected">
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li class="selected">
 						<a href="blog.html">News</a>
-						<ul class="secondary">
-							<li>
-								<a href="singlepost.html">Latest Updates</a>
-							</li>
-						</ul>
 					</li>
 					<li>
 						<a href="contact.html">Contact</a>
@@ -42,48 +45,57 @@
 		<div id="body">
 			<div class="header">
 				<div>
-					<h1>Team News & Updates</h1>
+					<h1>News & Updates</h1>
 				</div>
 			</div>
-			<div class="body">
-				<div>
+			<div class="blog">
+				<div class="featured">
 					<ul>
 						<li>
-							<a href="singlepost.html"><img src="images/new-chills.png" alt=""></a>
-							<h1>SUMMER CAMP REGISTRATION NOW OPEN</h1>
-							<span>JANUARY 10, 2026</span>
-							<p>Don't miss our intensive summer basketball camp! Spaces are filling up fast for our week-long training sessions featuring skills development, scrimmages, and guest coaching.</p>
-							<a href="singlepost.html" class="more">Read More</a>
+							<img src="images/new-chills.png" alt="">
+							<div>
+								<h1>TRYOUTS & EVALUATIONS</h1>
+								<span>By Admin on November 28, 2023</span>
+								<p>You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template.</p>
+								<a href="singlepost.html" class="more">Read More</a>
+							</div>
 						</li>
 						<li>
-							<a href="singlepost.html"><img src="images/on-diet.png" alt=""></a>
-							<h1>BRUINS ADVANCE TO CHAMPIONSHIP</h1>
-							<span>JANUARY 5, 2026</span>
-							<p>Our U14 team has clinched a spot in the regional championship finals! Join us on January 20th to cheer them on as they compete for the title.</p>
-							<a href="singlepost.html" class="more">Read More</a>
-						</li>
-						<li>
-							<a href="singlepost.html"><img src="images/berries.png" alt=""></a>
-							<h1>NEW TRAINING FACILITY OPENING</h1>
-							<span>DECEMBER 15, 2025</span>
-							<p>We're excited to announce our partnership with North City Community Center, giving us access to state-of-the-art basketball courts and training facilities.</p>
-							<a href="singlepost.html" class="more">Read More</a>
+							<img src="images/berries.png" alt="">
+							<div>
+								<h1>SPRING SEASON STARTS</h1>
+								<span>By Admin on November 28, 2023</span>
+								<p>You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template.</p>
+								<a href="singlepost.html" class="more">Read More</a>
+							</div>
 						</li>
 					</ul>
+					<a href="blog.html" class="load">Load More</a>
+				</div>
+				<div class="sidebar">
+					<h1>Recent Posts</h1>
+					<img src="images/on-diet.png" alt="">
+					<h2>ON THE DIET</h2>
+					<span>By Admin on November 28, 2023</span>
+					<p>You can replace all this text with your own text. You can remove any link to our website from this website template.</p>
+					<a href="singlepost.html" class="more">Read More</a>
 				</div>
 			</div>
 		</div>
 		<div id="footer">
 			<div>
 				<div class="connect">
-					<a href="http://freewebsitetemplates.com/go/facebook/" class="facebook">facebook</a>
-					<a href="http://freewebsitetemplates.com/go/twitter/" class="twitter">twitter</a>
-					<a href="http://freewebsitetemplates.com/go/googleplus/" class="googleplus">googleplus</a>
-					<a href="http://pinterest.com/fwtemplates/" class="pinterest">pinterest</a>
+					<a href="#" class="facebook">facebook</a>
+					<a href="#" class="twitter">twitter</a>
+					<a href="#" class="googleplus">email</a>
+					<a href="#" class="pinterest">instagram</a>
 				</div>
-				<p>&copy; 2026 North City Bruins. All Rights Reserved.</p>
+				<p>&copy; <span id="year"></span> North City Bruins. All Rights Reserved.</p>
 			</div>
 		</div>
+		<script>
+			document.getElementById('year').textContent = new Date().getFullYear();
+		</script>
 	</div>
 </body>
 </html>

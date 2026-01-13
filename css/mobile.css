@@ -275,7 +275,7 @@
 		width: 100%;
 	}
 	#body div.blog .sidebar {
-		background-color: #EFEDEE;
+		background-color: #f6f7fa;
 		float: none;
 		margin: 0;
 		padding: 0 0 71px;
@@ -356,7 +356,7 @@
 		margin: 0 0 0 2%;
 	}
 	#body div.footer .section {
-		background-color: #EFEDEE;
+		background-color: #f6f7fa;
 		float: none;
 		margin: 0 auto 5%;
 		max-width: none;
