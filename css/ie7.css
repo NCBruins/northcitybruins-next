@@ -1,0 +1,93 @@
+/** Website template by freewebsitetemplates.com **/
+div#body {
+	margin:0 auto;
+	float:left;
+}
+div#body  div#featured{
+	width: 960px;
+	position: static;
+	top:-150px;
+	margin: -50px auto 0;
+}
+div#body  div#featured ul{
+	list-style-type: none;
+	margin:0 0 0 15px;
+	padding: 0;
+	position: relative;
+	top:-70px;
+	z-index:101;
+}
+div#body  div#featured ul li{
+	float: left;
+	margin:0 10px;
+	background: transparent url("../images/bg-frame.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 144px;
+	width: 254px;
+	padding:10px 20px;
+}
+div#body  div#featured ul li a img{
+	float: left;
+	margin: 35px 20px 20px 0;
+}
+div#body  div#featured ul li h1{
+	font-family: Arial;
+	font-size: 23px;
+	color: #dec0c1;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+div#body  div#featured ul li.first{
+	text-align: center;
+	padding:20px;
+	height: 124px;
+}
+div#body  div#featured ul li.first h2{
+	font-family: Arial;
+	font-size: 26px;
+	color: #dec0c1;
+	line-height: 30px;
+	margin:10px 0 0 0;
+	padding:0;
+	text-transform: uppercase;
+}
+div#body  div#featured ul li.first a.button{
+	background: transparent url("../images/button-1.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 30px;
+	width: 129px;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 14px;
+	color: #dec0c1;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+div#body  div#featured ul li.last{
+	text-align: center;
+}
+div#body  div#featured ul li.last h3{
+	font-family: Arial;
+	font-size: 73px;
+	color: #dec0c1;
+	line-height: 30px;
+	margin:45px 0 0 0;
+	padding:0;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+div#body  div#featured ul li.last p{
+	font-family: Arial;
+	font-size: 15px;
+	color: #dec0c1;
+	font-weight: bold;
+}
+div#body  div#featured ul li.last p span{
+	text-transform: uppercase;
+}
