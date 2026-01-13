@@ -1,89 +1,305 @@
-<!DOCTYPE html>
-<!-- Website template by freewebsitetemplates.com -->
+<!doctype html>
+<html lang="en">
 <head>
-	<title>Sporting Good</title>
-	<meta charset="utf-8">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<!--[if IE 7]>
-		<link href="css/ie7.css" rel="stylesheet" type="text/css">
-	<![endif]-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="North City Bruins Youth Basketball League — registration, schedules, and league info." />
+  <title>North City Bruins | Youth Basketball League</title>
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNBGBEMNKP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CNBGBEMNKP');
+  </script>
+
 </head>
+
 <body>
-	<div id="header">
-		<div>
-			<a href="index.html"><img class="logo" src="images/logo.png" width="477" height="220" alt=""> </a>
-			<ul class="navigation">
-				<li>
-					<a class="active" href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="products.html">Products</a>
-				</li>
-				<li>
-					<a href="about.html">About</a>
-				</li>
-				<li>
-					<a href="blog.html">Blog</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div id="body">
-		<div id="featured"> <a href="index.html"><img src="images/football.png" width="974" height="614" alt=""> </a>
-			<ul>
-				<li class="first">
-					<h2>Free shipping worldwide</h2>
-					<a href="index.html" class="button">Shop Now!</a>
-				</li>
-				<li>
-					<a href="index.html"><img src="images/discount.png" width="75" height="62" alt=""></a>
-					<h1>all fishing equipment</h1>
-				</li>
-				<li class="last">
-					<h3>SALE</h3>
-					<p>
-						<span>Feb</span> 1 - 31, 1999
-					</p>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div id="footer">
-		<div>
-			<div class="section">
-				<div>
-					<div>
-						<ul>
-							<li class="first">
-								<h2>Blog</h2>
-								<p>
-									This is just a place holder, so you can see what the site would look like. <a href="blog.html" class="readmore">(more)</a>
-								</p>
-							</li>
-							<li>
-								<h2>get in touch</h2>
-								<ul class="connect">
-									<li>
-										<a href="http://www.freewebsitetemplates.com/go/facebook/" class="facebook">&nbsp;</a>
-									</li>
-									<li>
-										<a href="http://www.freewebsitetemplates.com/go/twitter/" class="twitter">&nbsp;</a>
-									</li>
-									<li>
-										<a href="http://www.freewebsitetemplates.com/misc/contact" class="googleplus">&nbsp;</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="footnote">
-				<p>
-					&copy; Copyright 2012. All rights reserved.
-				</p>
-			</div>
-		</div>
-	</div>
+  <header class="header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="North City Bruins home">
+        <img src="assets/logo.png" alt="North City Bruins logo" class="brand__logo" />
+        <span class="brand__name">North City Bruins</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Open menu</span>
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+
+        <div class="nav__menu" id="navMenu">
+          <a href="#programs">Programs</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a class="btn btn--small" href="#register">Register</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="kicker">Youth Basketball League</p>
+          <h1>Modern. Competitive. Player‑first.</h1>
+          <p class="lead">
+            Skill development, teamwork, and a positive culture — for beginners through competitive divisions.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#register" id="ctaRegisterTop">Register</a>
+            <a class="btn btn--ghost" href="#programs">View programs</a>
+          </div>
+
+          <div class="meta">
+            <div class="meta__item">
+              <div class="meta__label">Ages</div>
+              <div class="meta__value">6–17</div>
+            </div>
+            <div class="meta__item">
+              <div class="meta__label">Season</div>
+              <div class="meta__value" id="seasonRange">Mar – Jun</div>
+            </div>
+            <div class="meta__item">
+              <div class="meta__label">Location</div>
+              <div class="meta__value">North City, ON</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero__panel" aria-label="Season details">
+          <div class="panel">
+            <div class="panel__head">
+              <h2>Season dates</h2>
+              <p class="muted">Update in <code>script.js</code>.</p>
+            </div>
+
+            <dl class="dates">
+              <div class="dates__row">
+                <dt>Registration</dt>
+                <dd id="dateRegistration">Jan 10 – Mar 01</dd>
+              </div>
+              <div class="dates__row">
+                <dt>Evaluations</dt>
+                <dd id="dateEvaluations">Mar 02 – Mar 08</dd>
+              </div>
+              <div class="dates__row">
+                <dt>Games</dt>
+                <dd id="dateGames">Mar 15 – Jun 08</dd>
+              </div>
+              <div class="dates__row">
+                <dt>Playoffs</dt>
+                <dd id="datePlayoffs">Jun 14 – Jun 22</dd>
+              </div>
+            </dl>
+
+            <div class="panel__actions">
+              <a class="btn btn--small" href="#schedule">See schedule</a>
+              <a class="btn btn--small btn--ghost" href="#contact">Ask a question</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="programs">
+      <div class="container">
+        <div class="section__head">
+          <h2>Programs</h2>
+          <p class="muted">Simple options that cover every level.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Learn‑to‑Play</h3>
+            <p class="muted">Fundamentals for new players with small-sided games.</p>
+            <ul class="list">
+              <li>Ages 6–9</li>
+              <li>1 practice + 1 game weekly</li>
+              <li>Confidence-first coaching</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Recreational League</h3>
+            <p class="muted">Balanced teams, skill sessions, and fair play.</p>
+            <ul class="list">
+              <li>Ages 9–14</li>
+              <li>Equal‑play philosophy</li>
+              <li>Certified coaches</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Competitive</h3>
+            <p class="muted">Higher intensity training and tournament play.</p>
+            <ul class="list">
+              <li>Ages 12–17</li>
+              <li>Tryouts/evaluations</li>
+              <li>Advanced sessions</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="register">
+      <div class="container">
+        <div class="cta">
+          <div>
+            <h2>Registration</h2>
+            <p class="muted">
+              Register online in under 2 minutes. Scholarships and sibling discounts available.
+            </p>
+          </div>
+          <div class="cta__actions">
+            <a class="btn" href="#" id="ctaRegisterMid" onclick="openRegistration(); return false;">Open registration</a>
+            <a class="btn btn--ghost" href="#contact">Contact us</a>
+          </div>
+          <p class="tiny muted">Replace the registration link in <code>script.js</code>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="schedule">
+      <div class="container">
+        <div class="section__head">
+          <h2>Schedule</h2>
+          <p class="muted">Example week — swap in your gyms and times.</p>
+        </div>
+
+        <div class="scheduleList">
+          <div class="scheduleRow">
+            <div class="scheduleDay">Mon</div>
+            <div class="scheduleMain">Learn‑to‑Play</div>
+            <div class="scheduleMeta">5:30–6:30 PM • North City Community Centre</div>
+          </div>
+
+          <div class="scheduleRow">
+            <div class="scheduleDay">Wed</div>
+            <div class="scheduleMain">Recreational U12</div>
+            <div class="scheduleMeta">6:00–7:30 PM • Riverside Gym</div>
+          </div>
+
+          <div class="scheduleRow">
+            <div class="scheduleDay">Thu</div>
+            <div class="scheduleMain">Recreational U14</div>
+            <div class="scheduleMeta">6:00–7:30 PM • Hillcrest School</div>
+          </div>
+
+          <div class="scheduleRow">
+            <div class="scheduleDay">Sat</div>
+            <div class="scheduleMain">League Games</div>
+            <div class="scheduleMeta">9:00 AM–3:00 PM • Multiple locations</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="about">
+      <div class="container">
+        <div class="section__head">
+          <h2>About the league</h2>
+          <p class="muted">Clear standards, clear communication.</p>
+        </div>
+
+        <div class="twoCol">
+          <div class="card card--soft">
+            <h3>Our approach</h3>
+            <ul class="list">
+              <li>Development first: fundamentals and decision-making</li>
+              <li>Positive competition: effort, teamwork, accountability</li>
+              <li>Family-friendly operations: schedules and updates on time</li>
+            </ul>
+          </div>
+
+          <div class="card card--soft">
+            <h3>Volunteer</h3>
+            <p class="muted">Coach, manage, or help on game days — we’ll train you.</p>
+            <a class="btn btn--small" href="#" onclick="openVolunteer(); return false;">Volunteer interest form</a>
+            <p class="tiny muted">Replace this link in <code>script.js</code>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contact</h2>
+          <p class="muted">Send a message — we’ll reply quickly.</p>
+        </div>
+
+        <div class="twoCol">
+          <form class="card" id="contactForm">
+            <div class="form__row">
+              <label>
+                <span>Name</span>
+                <input name="name" type="text" autocomplete="name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input name="email" type="email" autocomplete="email" required />
+              </label>
+            </div>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" required placeholder="How can we help?"></textarea>
+            </label>
+            <div class="form__actions">
+              <button class="btn" type="submit">Send message</button>
+              <p class="tiny muted">Demo only (no backend yet).</p>
+            </div>
+            <div class="form__note" id="formNote" aria-live="polite"></div>
+          </form>
+
+          <div class="card card--soft">
+            <h3>League office</h3>
+            <div class="info">
+              <div class="info__item">
+                <div class="tiny muted">Email</div>
+                <div><a class="link" href="mailto:info@northcitybruins.ca">info@northcitybruins.ca</a></div>
+              </div>
+              <div class="info__item">
+                <div class="tiny muted">Phone</div>
+                <div><a class="link" href="tel:+14165551234">(416) 555‑1234</a></div>
+              </div>
+              <div class="info__item">
+                <div class="tiny muted">Location</div>
+                <div>North City, Ontario</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <img src="assets/logo.png" alt="" class="footer__logo" />
+        <div>
+          <div class="strong">North City Bruins</div>
+          <div class="tiny muted">Youth Basketball League</div>
+        </div>
+      </div>
+      <div class="footer__right tiny muted">
+        <span>© <span id="year"></span> North City Bruins</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
