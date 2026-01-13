@@ -352,3 +352,7 @@ a {
         padding: 2rem 1rem;
     }
 }
+
+html, body {
+  cursor: url('images/basketball-cursor.png') 16 16, auto;
+}
