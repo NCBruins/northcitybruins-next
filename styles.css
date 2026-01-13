@@ -1,0 +1,285 @@
+/*
+ * North City Bruins site styles
+ *
+ * This stylesheet defines the overall layout and color scheme for the
+ * North City Bruins youth basketball league. It uses CSS variables for
+ * primary and accent colors so the theme can be changed easily. The
+ * design focuses on clean typography, generous spacing and responsive
+ * behaviour across devices.
+ */
+
+/* Color variables */
+:root {
+  --primary-color: #0B2A55; /* navy blue */
+  --accent-color: #F4C300; /* gold */
+  --text-color: #333333;
+  --light-bg: #f8f9fa;
+  --border-color: #e5e5e5;
+}
+
+/* Global styles */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--light-bg);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Containers */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Navigation */
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.brand-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: var(--primary-color);
+  font-weight: 600;
+  padding: 0.5rem;
+  display: block;
+}
+
+.nav-links li.active a,
+.nav-links li a:hover {
+  color: var(--accent-color);
+}
+
+/* Hero section */
+.hero {
+  background: radial-gradient(circle at 25% 25%, rgba(244, 195, 0, 0.2), transparent 70%),
+              radial-gradient(circle at 75% 30%, rgba(11, 42, 85, 0.2), transparent 70%);
+  color: var(--primary-color);
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/* Info section */
+.info {
+  background-color: white;
+  padding: 3rem 0;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.columns > div {
+  flex: 1 1 300px;
+}
+
+.columns h2 {
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+.columns p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Page header */
+.page-header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Content sections */
+.content {
+  padding: 0 0 3rem;
+}
+
+.content h2 {
+  color: var(--primary-color);
+  margin-top: 2rem;
+}
+
+.list {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Contact form */
+.contact-form {
+  margin-top: 1.5rem;
+  max-width: 600px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+}
+
+/* FAQ */
+.faq-content .faq-item {
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem 0;
+}
+
+.faq-content .faq-item h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 1.5rem 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1);
+}
+
+/* Utility classes */
+.columns > div:first-child {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  .columns {
+    flex-direction: column;
+  }
+  .page-header h1 {
+    font-size: 1.6rem;
+  }
+}
